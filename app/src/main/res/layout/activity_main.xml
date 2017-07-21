@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.spacequiz.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/space_background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/question1" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q1_Jupiter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jupitar"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q1_murcury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mercury"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q1_uranus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uranus"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q1_neptune"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neptune"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/question2" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_murcury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mercury"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_jupitar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jupitar"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_uranus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uranus"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/q2_venus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/venus"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:buttonTint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/question3" />
+
+            <EditText
+                android:id="@+id/q3_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="@string/edit_text_hint"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/question4" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/solar_eclipse"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/comet_motion"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/q4_twinking_of_stars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/twinkling_stars"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/question5" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/min5"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/q5_8min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/min8"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/min11"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="submitQuiz"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

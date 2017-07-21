@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Space Quiz</string>
+    <string name="question1">Which Planets Have Rings around Them?</string>
+    <string name="question2">Which planets do not have moons?</string>
+    <string name="question3">Who was the first person to set foot on the Moon?</string>
+    <string name="question4">Which of the following phenomena cannot be observed on the surface of the Moon?</string>
+    <string name="question5">How much time does sun rays take to reach earth?</string>
+    <string name="jupitar">Jupitar</string>
+    <string name="mercury">Mercury</string>
+    <string name="uranus">Uranus</string>
+    <string name="venus">Venus</string>
+    <string name="neptune">Neptune</string>
+    <string name="solar_eclipse">Solar eclipse</string>
+    <string name="comet_motion">Motion of comets</string>
+    <string name="twinkling_stars">Twinkling of stars</string>
+    <string name="min5">5 mintues</string>
+    <string name="min8">8 mintues</string>
+    <string name="min11">11 mintues</string>
+    <string name="edit_text_hint">Answer Here</string>
+    <string name="submit">Submit</string>
+
+
+
+</resources>
